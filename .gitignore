@@ -5,3 +5,9 @@
 nb-configuration.xml
 target/
 *.iml
+
+.DS_Store
+.history
+.vscode
+
+*.class
