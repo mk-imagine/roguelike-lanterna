@@ -1,11 +1,9 @@
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
 import com.googlecode.lanterna.SGR;
 import com.googlecode.lanterna.TerminalSize;
-import com.googlecode.lanterna.TextColor;
 import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
@@ -15,7 +13,7 @@ import com.googlecode.lanterna.terminal.TerminalResizeListener;
 import java.nio.charset.Charset;
 import java.util.SortedMap;
 
-public class GameDriver {
+public class GameDriverTerm {
     public static final HashMap<Character, String> COMMAND_OPS = new HashMap<>(Map.ofEntries(
             Map.entry('n', "move up/north  "),
             Map.entry('s', "move down/south"),

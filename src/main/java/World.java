@@ -14,11 +14,11 @@ public class World {
         initWorld(height, width);
     }
 
-     int getWorldHeight() {
+    int getWorldHeight() {
          return mapDisplay.length;
      }
 
-     int getWorldWidth() {
+    int getWorldWidth() {
          return mapDisplay[0].length;
      }
 
