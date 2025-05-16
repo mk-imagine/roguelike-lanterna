@@ -1,4 +1,10 @@
-Lanterna
+# A roguelike game using Lanterna terminal emulator
+
+This is an intro to programming exercise to create a roguelike game that runs on a Lanterna terminal emulator.  This exercise is meant to
+teach OOP concepts and how to adapt already existing code into an "engine" of sorts.
+
+
+# Lanterna Details
 ---
 
 ![Lanterna screenshot](http://mabe02.github.io/lanterna/resources/lanterna.png)
